@@ -22,6 +22,9 @@ ul, ol {
 }
 
 /* NavBar CSS */
+#navbar {
+    background: #FFF8F3;
+}
 .nav-area {
     display: flex;
     justify-content: space-between;
