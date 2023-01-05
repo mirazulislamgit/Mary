@@ -21,14 +21,16 @@ ul, ol {
     color: #FD6E0A;
 }
 
-/* NavBar CSS */
-#navbar {
-    background: #FFF8F3;
+/*Start NavBar CSS*/
+header#nevbar {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
 }
 .nav-area {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
 }
 
 .logo h2 {
@@ -46,10 +48,80 @@ ul, ol {
     color: #474747;
 }
 
-.menu ul li a {
+.btn {
+    display: inline-block;
+}
+
+.btn a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     color: #fff;
     background: #FD6E0A;
     padding: 18px 35px;
     display: block;
+    border: solid 1px #FD6E0A;
     border-radius: 5px;
 }
+
+.btn i {
+    margin-right: 10px;
+}
+/*End NavBar CSS*/
+
+/* Start Banner CSS */
+#banner {
+    position: relative;
+}
+.banner-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-para {
+    width: 585px;
+}
+
+.banner-para h3 {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-para h1 {
+    font-size: 85px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #181818;
+    padding: 5px 0px 20px 0px;
+}
+
+.banner-para p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #181818;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.banner-img {
+    width: 584px;
+    padding-top: 150px;
+    z-index: 1;
+}
+
+.banner-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#banner .banner-para .btn:last-child a{
+    background: #fff;
+    color: #FD6E0A;
+    margin-left: 30px;
+}
+/* End Banner CSS */
