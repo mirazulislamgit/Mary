@@ -21,6 +21,10 @@ ul, ol {
     color: #FD6E0A;
 }
 
+section {
+    padding: 130px 0;
+}
+
 /*Start NavBar CSS*/
 header#nevbar {
     position: absolute;
@@ -71,6 +75,7 @@ header#nevbar {
 /* Start Banner CSS */
 #banner {
     position: relative;
+    padding: 0;
 }
 .banner-area {
     display: flex;
@@ -125,3 +130,51 @@ header#nevbar {
     margin-left: 30px;
 }
 /* End Banner CSS */
+
+/* Start About CSS */
+#about .container {
+    background: #FFF8F3;
+    padding: 131px 156px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.title p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    padding: 30px 160px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-info span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.about-info h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+/* End About CSS */
